@@ -1,7 +1,7 @@
 public void setup()
 {
   background(215,237,144);
-	size(450,450);
+	size(450,400);
 }
 
 public void draw()
@@ -9,10 +9,11 @@ public void draw()
   noStroke();
   sierpinski(80,300,300);
 }
-public void mouseDragged()//optional
+/*public void mouseDragged()//optional
 {
 
 }
+*/
 public void sierpinski(int x, int y, int len) 
 {
 	if(len < 20){
